@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="process.html">
+        <!-- text -->
+        <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <!-- email -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter email">
+        </div>
+        <!-- message -->
+        <div>
+            <label for="message">message</label><br>
+            <textarea name="message" id="message" placeholder="Type message Here..." rows="5" cols="50"></textarea>
+        </div>
+        <!-- select -->
+        <div><label for="sex">Sex</label>
+            <select name="sex" id="sex">
+                <option value="sex">male</option>
+                <option value="sex" selected>female</option>
+                <option value="sex">others</option>
+            </select>
+        </div>
+        <!-- input type number of age -->
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age" max="45" min="18">
+        </div>
+        <div>
+            <!-- Radio -->
+            <label for="membership">membership</label>
+            <input type="radio" id="simple" name="membership" value="simple">
+            <label for="simple">simple</label>
+            <input type="radio" id="standerd" name="membership" value="standerd">
+            <label for="standerd">standerd</label> 
+            <input type="radio" id="super" name="membership" value="super">
+            <label for="super">super</label> 
+        </div>
+        <div>
+            <!-- checkbox -->
+            <label for="I_like_to..">I like to..</label>
+            <input type="checkbox" id="Bike" name="I_like_to.." value="simple">
+            <label for="Bike">Bike</label>
+            <input type="checkbox" id="car" name="I_like_to.." value="standerd">
+            <label for="car">car</label>
+            <input type="checkbox" id="Boat" name="I_like_to.." value="super">
+            <label for="Boat">Boat</label>
+        </div>
+        <!-- Birthadate -->
+        <div>
+            <label for="birthdate">birthdate</label>
+            <input type="date" id="birthdate" name="birthdate" placeholder="dd/mm/yyyy">
+        </div>
+        <!-- input type submit -->
+        <div>
+            <input type="submit" value="submit">
+        </div>
+        <!-- button tags -->
+        <div>
+            <!-- <button type="submit">submit</button> -->
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
