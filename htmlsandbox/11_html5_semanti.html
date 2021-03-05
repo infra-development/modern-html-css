@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5 semantic tags</title>
+    <style>
+       * {
+        box-sizing: border-box;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+</head>
+<body>
+    <header id="header" class="card">
+        <h1>my website</h1>
+        <p>just Another Website</p>
+    </header>
+    <!-- main -->
+    <div id="main">
+        <!-- section -->
+            <div id=section class="card">
+            <h2>welcome To Our Website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque recusandae dolores hic sint suscipit aspernatur repudiandae expedita illo numquam tempora, eos reprehenderit dignissimos corporis cumque a perspiciatis, culpa deleniti temporibus.</p>
+            <a href="#" class="text-center">click for more</a>
+            </div>
+
+       
+        <!-- blog section -->
+            <div id="blog">
+                <h2>this blog section</h2>
+                <!-- artical-1 -->
+                <div class="artical">
+                    <h3>heading 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quae voluptate molestias ipsum eligendi nesciunt numquam, laboriosam consectetur molestiae eaque, excepturi velit ullam dolor totam.</p>
+                </div>
+                <!-- artical-2 -->
+                <div id="artical">
+                    <h3>heading 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed mollitia alias voluptatibus aliquid dolor, neque et, libero, dolore veritatis culpa quibusdam quaerat expedita! Cum, sit.</p>
+                </div>
+            </div>
+            
+    </div>
+    <div id="sidebar" class="card">
+        <h3>Navigation</h3>
+        <ul id="main-nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        <hr>
+        <h3>Contact us</h3>
+        <ul style="list-style: none;">
+            <li><strong>Address :</strong> 39,gayatri nagar soceity, vidhyanagar Anand</li>
+            <li><strong>contact :</strong> (555) 6465 3455 3455</li>
+            <li><strong>Email :</strong> kaushikchaudhary@gmail.com</li>
+        </ul>
+    </div>
+    <div class="clr"></div>
+    <div id="footer">
+        <p class="text-center">Copy Right &copy; 2000</p>
+    </div>
+</body>
+</html>
+   
