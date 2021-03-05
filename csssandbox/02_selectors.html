@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <!-- internal css -->
+    <style>
+        /* Element selectors */
+    body{
+        background-color: rgb(212, 152, 91);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /*  '#'' is for IDs */
+    #welcom{
+        background-color: #f4f4f4;
+
+    }
+    .primary-heading{
+        color: blue;
+    }
+     /*  Nested selector */
+    #welcom p{
+        font-size: 18px;
+    }
+     /* Multipal selector */
+        #welcom, #about{
+            border: 2px solid rgb(212, 8, 8);
+            padding: 20px 10px;
+            margin-bottom: 15px;
+        }
+        #about{
+            color: #ee1111;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcom">
+    <h2 class="primary-heading">Welcome</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates labore itaque praesentium mollitia possimus nulla dolorem at, eligendi ipsam error explicabo aliquid minima doloremque! Fuga officiis ratione aut, doloremque labore veniam minus corporis inventore? Explicabo repellat cumque eveniet corrupti suscipit.</p>
+</div>
+<div id="about">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam a quam voluptatibus sapiente quae. Praesentium quidem dicta adipisci quasi, possimus reprehenderit quam voluptatum dignissimos quibusdam ad culpa laudantium quaerat maxime atque. Assumenda error facilis labore culpa eveniet delectus maxime neque.</p>
+</div>
+</body>
+</html>
