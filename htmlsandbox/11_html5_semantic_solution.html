@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5 semantic tags and wrap up</title>
+    <style>
+       * {
+        box-sizing: border-box;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>my website</h1>
+        <p>this is my responsive website</p>
+    </header>
+    <main id="main">
+        <div id="wellcom" class="card">
+            <h2>welcome to my website</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit optio magni molestiae ipsum, necessitatibus sed! Sed quos enim sit nisi excepturi distinctio corrupti voluptas earum recusandae ex, dicta ipsum.</p>
+            <a href="#" class="text-center">Click for more</a>
+        </div>
+        <section id="blog">
+            <h2>welcome to blog</h2>
+            <article id="article-1">
+                <h3>about</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum repudiandae sint quas veritatis quo amet aspernatur qui nisi laborum ea commodi aut eum fugit modi, neque deleniti iusto error ad.</p>
+            </article>
+            <article id="article-2">
+                <h3>about</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum repudiandae sint quas veritatis quo amet aspernatur qui nisi laborum ea commodi aut eum fugit modi, neque deleniti iusto error ad.</p>
+            </article>
+        </section>
+    </main>
+    <aside id="sidebar" class="card">
+        <h2>Navigation</h2>
+        <ul id="main-nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">bussnes</a></li>
+            <li><a href="#">work</a></li>
+        </ul>
+        <hr>
+        <ul>
+            <li><strong>Address :</strong>93,gayatri nagar,near by gh patel collage </li>
+            <li><strong>contact :</strong>Mo:- (555) 5432 3462 6555</li>
+            <li><strong>Email :</strong>shivajimharaj@gmail.com</li>
+        </ul>
+    </aside>
+    <div class="clr"></div>
+    <footer id="footer">
+        <p class="text-center">Copy Right &copy; 1720</p>
+    </footer>
+</body>
+</html>
