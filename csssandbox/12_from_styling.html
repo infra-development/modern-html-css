@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frome styling</title>
+    <style>
+        *{
+            /* may wat to add "border-box for box-sizing" so padding does not affect width*/
+            box-sizing: border-box;
+            /* Reset margin and padding */
+            margin: 0px;
+            padding: 0px;            
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #344a72;line-height: 1.8em;
+        }
+        a{
+            text-decoration: none;
+        }
+        #container{
+            display: block;
+            margin: auto;
+            max-width: 400px;
+            padding:  20px;
+        }
+        .form-wrap{
+            padding: 15px 30px;
+            background-color: #f4f4f4;
+        }.form-wrap h1,
+        .form-wrap p{
+            text-align: center;
+        }
+        .form-wrap .form-group{
+            margin-bottom:15px;
+        }
+        .form-wrap .form-group label{
+            display: block;
+        }
+        .form-group input{
+            
+            width: 100%;
+            border: 1px #333 solid;
+            padding: 20px;
+        }
+        .form-wrap button{
+            display: block;
+            width: 100%;
+            background-color: #49c;
+            cursor: pointer;
+        }
+        .form-wrap button:hover{
+            background-color: #37a08e;
+        }
+        .form-wrap .bottom-text{
+            font-size: 13px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="form-wrap">
+            <h1>Sign Up</h1>
+            <p>free submit without cost</p>
+            <div class=form-group">
+                <label for="name">First Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter First name">
+            </div>
+            <div class=form-group">
+                <label for="name">Last Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Last name">
+            </div>
+            <div class=form-group">
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" placeholder="Enter Email">
+            </div>
+            <div class=form-group">
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="Password" placeholder="Enter First Password">
+            </div>
+            <div class=form-group">
+                <label for="CPassword">Conform Password</label>
+                <input type="password" name="Password" id="CPassword" placeholder="Enter First Password">
+            </div>
+            <button class="btn"  type="submit">sign up</button>
+            <p class="bottom-text">adipisicing elit. Optio?
+                <a href="#">Terms & condition</a>,
+                <a href="#">privacy policy</a> </p>
+        </div>
+        <footer>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio?
+               <a href="#">Terms & condition</a>,
+               <a href="#">privacy policy</a> 
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
