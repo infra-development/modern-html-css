@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline & block</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        li{
+            display: inline;
+        }
+        li a{
+            padding-right: 20px;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+        .box{
+            border: 1px cornflowerblue solid;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        #box1{
+            display: inline-block;
+            width: 32%;
+        }
+        #box2{
+            display: inline-block;
+            width: 32%;
+        }
+        #box3{
+            display: inline-block;
+            width: 32%;
+        }
+    </style>
+</head>
+<body>
+    <ul id="nav">
+        <li><a href="#">About</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <br>
+    <br>
+    <img src="../img/1-mercedes-gls-2020-rt-hero-front.jpeg" alt="this is my car photo">
+    <br>
+    <br>
+        <div id="box1" class="box">
+            <h3>heading 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur, rem sequi necessitatibus modi delectus? Eos illo numquam voluptate debitis quod, aut, odit, nulla illum modi sed libero laudantium fuga.</p>
+        </div>
+        <div id="box2" class="box">
+            <h3>heading 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur, rem sequi necessitatibus modi delectus? Eos illo numquam voluptate debitis quod, aut, odit, nulla illum modi sed libero laudantium fuga.</p>
+        </div>
+        <div id="box3" class="box">
+            <h3>heading 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur, rem sequi necessitatibus modi delectus? Eos illo numquam voluptate debitis quod, aut, odit, nulla illum modi sed libero laudantium fuga.</p>
+        </div>
+</body>
+</html>
