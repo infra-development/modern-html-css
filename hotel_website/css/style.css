@@ -91,8 +91,21 @@ p{
     color: #fff;
 }
 .bg-primary{
-    background: #333;
-    color: #fff;
+    background: #f7c08f;
+    color:#333 ;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    
+}
+.box{
+    margin-bottom: 10px;
+}
+.clr{
+    clear: both;
 }
 /* Showcase */
     #showcase{
@@ -127,5 +140,9 @@ p{
         padding: 50px 30px;
         overflow: hidden;
     }
-
-
+    #main-footer{
+        text-align: center;
+        background: #444;
+        color: #fff;
+        padding: 20px;
+    }
