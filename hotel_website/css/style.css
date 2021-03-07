@@ -26,7 +26,7 @@ p{
     overflow: auto;
 }
 #navbar a{                 /* specific for link */
-    color: #fff;        /* #navbar h2 a , # navbar ul li a */
+    color: #fff;        
 }
 #navbar h1{
     float: left;
@@ -78,6 +78,22 @@ p{
     background: #f7c08f;
     color: #333;
 }
+.btn-light{
+    background: #fff;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background: #333;
+    color: #fff;
+}
+.bg-primary{
+    background: #333;
+    color: #fff;
+}
 /* Showcase */
     #showcase{
         background: url(../img/pexels-rachel-claire-4825701.jpg)no-repeat center center/cover;
@@ -94,6 +110,22 @@ p{
         padding-bottom: 20px;
         line-height: 1.7em;
     }
-    
+    #home-info{
+        height: 400px;
+    }
+    #home-info .info-img{
+        float: left;
+        width: 50%;
+        background: url(../img/pexels-thgusstavo-santana-5176621.jpg)no-repeat center center/cover;
+        min-height: 100%;
+    }
+    #home-info .info-content{
+        float: right;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 30px;
+        overflow: hidden;
+    }
 
 
