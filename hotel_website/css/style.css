@@ -215,6 +215,12 @@ p{
         outline: none;
         border-color: #f7c08f;
     }
+    #contact-form button{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        width: 50%;
+    }
     #main-footer{
         text-align: center;
         background: #444;
