@@ -155,62 +155,11 @@ py-3{
         overflow: hidden;
     }
     /* About info */
-  #about-info .info-right{
-        float:right;
-        width: 50%;
-        min-height: 100%;
-        
-    }
-    #about-info .info-right img{
-        display: block;
-        margin: auto;
-        width: 70%;  
-        border-radius: 50%;      
-    }
-    #about-info .info-left{
-        float: left;
-        width: 50%;
-        min-height: 100%;
-    }
-    #testimonial .testimonial img{
-        float: left;
-        width: 100px;
-        margin: auto;
-        border-radius: 50%;
-
-    }
-    #testimonial{
-        height: 600px;
-        background: url(/img/pexels-kelly-lacy-2869215.jpg)no-repeat center center/cover;
-        padding-top: 100px;
-    }
-    #testimonial h2{
-        color: #fff;
-        text-align: center;
-        padding-bottom: 40px;
-    }
-    #testimonial .testimonial{
-        padding: 20px;
-        margin-bottom: 40px;
-        border-radius: 5px;
-        opacity: 0.9;
-    }
-    /*
     #about-info .info-right{
         float: right;
         width: 50%;
         min-height: 100%;
     }
-    #about-info .info-right img{
-        display: block;
-        margin: auto;
-        width: 70%;
-    }
-    #about-info .info-left{
-        float: left;
-        width: 50%;
-        min-height: 100%;
-    }*/
     #main-footer{
         text-align: center;
         background: #444;
