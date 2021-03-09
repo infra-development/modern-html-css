@@ -28,7 +28,7 @@ p{
 #navbar a{                 /* specific for link */
     color: #fff;        
 }
-#navbar h1{
+#navbar .logo{
     float: left;
     padding-top: 20px;
     
@@ -107,7 +107,7 @@ p{
 .clr{
     clear: both;
 }
-/* padding */
+/* padding utility */
 .py-1{
     padding: 10px 0;
 }

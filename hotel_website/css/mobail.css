@@ -1,0 +1,33 @@
+/* Navbar mobail */
+#navbar .logo{
+    float: none;
+    text-align: center;
+}
+#navbar ul,
+#navbar ul li{
+    float: none;
+}
+#navbar ul li{
+    padding: 5px;
+    border-bottom: #444 dashed 1px;
+}
+/* showcase */
+#showcase{
+    padding: 70px 0;
+}
+/* Home info */
+#home-info{
+    height: 550px;
+}
+#home-info .info-img{
+    display: none;
+}
+#home-info .info-content{
+    float: none;
+    width: 100%;
+}
+/* boxes */
+.box{
+    float: none;
+    width: 100%;
+}
