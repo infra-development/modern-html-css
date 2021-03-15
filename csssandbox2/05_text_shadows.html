@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Shadows</title>
+    <style>
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 4rem;
+        }
+        h1.a{
+            /* h-shadow | v-shadow | color */
+            text-shadow: 0.2rem 0.2rem blue;
+        }
+        h1.b{
+            /* h-shadow | v-shadow | blur | color */
+            text-shadow: 0.2rem 0.2rem 0.3rem green;
+        }
+        h1.c{
+            color: white;
+            text-shadow: 0.2rem 0.2rem 1rem steelblue;
+        }
+        h1.d{
+            /* h-shadow | v-shadow | blur | color */
+            text-shadow: -0.4rem -0.3rem 0.7rem steelblue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1 class="a">HEADING 1</h1>
+    <h1 class="b">HEADING 2</h1>
+    <h1 class="c">HEADING 3</h1>
+    <h1 class="d">HEADING 4</h1>
+</body>
+</html>
