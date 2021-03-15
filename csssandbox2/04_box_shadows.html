@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadows</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .box{
+            margin: 1rem;
+            padding: 1rem;
+            background: coral;
+
+            /* offset-x | offset-y | color */
+            box-shadow: 10px 10px teal;
+            /* offset-x | offset-y | blur-radius | color */
+            box-shadow: 10px 10px 20px teal;
+            /* offset-x | offset-y | blur-radius | spread-racdius | color */
+            box-shadow: 5px 5px 20px teal;
+            /* Negative values */
+            box-shadow: -5px -5px 20px  teal;
+            /* offset-x | offset-y | blur-radius | spread-radius | color */
+            box-shadow: 3px 3px 10px 1px rgb(0, 0, 0, 0.9);
+            /* inset | offset-x | offset-y | blur-radius | color */
+            box-shadow:inset 5px 5px teal;
+            /* inset | offset-x | offset-y | blur-radius | color */
+            box-shadow:inset 5px 5px teal ,inset -5px -5px orange;
+            /* offset-x | offset-y | blur-radius | color */
+            box-shadow: 5px 5px teal , -5px -5px orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>box Shadows</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam iste temporibus, culpa eum, rem nulla, nisi sapiente laboriosam vero dolorum nihil a in non neque quia aliquid quo officiis.</p>
+        </div>
+        <div class="box">
+            <h2>box Shadows</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam iste temporibus, culpa eum, rem nulla, nisi sapiente laboriosam vero dolorum nihil a in non neque quia aliquid quo officiis.</p>
+        </div>
+        <div class="box">
+            <h2>box Shadows</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam iste temporibus, culpa eum, rem nulla, nisi sapiente laboriosam vero dolorum nihil a in non neque quia aliquid quo officiis.</p>
+        </div>
+    </div>
+</body>
+</html>
