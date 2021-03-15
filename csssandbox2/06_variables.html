@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --max-width:1100px;
+            --light-color:#f4f4f4;
+            --primary-color: #333;
+            --secondary-color: skyblue;
+            --box-1-width:3;
+            --box-2-width:1;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+            background: var(--light-color);
+        }
+        header{
+            background: var(--primary-color);
+            color: #f4f4f4;
+            text-align: center;
+            border-bottom: 5px var(--secondary-color) solid;
+        }
+        .container{
+            display: flex;
+            margin: auto;
+            max-width: var(--max-width);
+        }
+        .box{
+            background: var(--primary-color);
+            color: #f4f4f4;
+            margin: 1rem;
+            padding: 1rem;
+            border-bottom: 5px var(--secondary-color) solid;
+
+        }
+        .box-1 {flex : var(--box-1-width)}
+        .box-2 {flex : var(--box-2-width)}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS variables</h1>
+    </header>
+    <div class="container">
+        <div class="box box-1">
+            <h1>HEADING</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias id quia! Explicabo, blanditiis. Consequatur, nisi expedita, modi sit neque non itaque labore eos dignissimos velit perspiciatis libero quia dolorum!</p>
+        </div>
+        <div class="box box-2">
+            <h1>HEADING</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati alias id quia! Explicabo, blanditiis. Consequatur, nisi expedita, modi sit neque non itaque labore eos dignissimos velit perspiciatis libero quia dolorum!</p>
+        </div>
+    </div>
+</body>
+</html>
