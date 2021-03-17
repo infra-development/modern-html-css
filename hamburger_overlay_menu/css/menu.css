@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
     width: 60px;
     height: 60px;
     padding: 1rem;
@@ -39,8 +39,8 @@
     justify-content: center;
 }
 /* Hamburger Lines - Top & Bottom */
-.menu-wrap .hamburger > div ::before,
-.menu-wrap .hamburger > div ::after{
+.menu-wrap .hamburger > div::before,
+.menu-wrap .hamburger > div::after{
     content: '';
     position: absolute;
     z-index: 1;
@@ -49,6 +49,6 @@
     height: 2px;
     background: inherit;
 }
-.menu-wrap .hamburger > div ::after{
+.menu-wrap .hamburger > div::after{
     top: 10px;
-}
+} 
