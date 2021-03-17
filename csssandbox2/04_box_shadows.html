@@ -9,6 +9,7 @@
         .container{
             display: flex;
         }
+        
         .box{
             margin: 1rem;
             padding: 1rem;
@@ -29,21 +30,24 @@
             /* inset | offset-x | offset-y | blur-radius | color */
             box-shadow:inset 5px 5px teal ,inset -5px -5px orange;
             /* offset-x | offset-y | blur-radius | color */
-            box-shadow: 5px 5px teal , -5px -5px orange;
+            box-shadow: 5px 5px teal , -5px -5px orange; */
+        }
+        #box-1{
+            box-shadow: 1px 1px 20px 5px crimson;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="box">
+        <div id="box-1" class="box">
             <h2>box Shadows</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam iste temporibus, culpa eum, rem nulla, nisi sapiente laboriosam vero dolorum nihil a in non neque quia aliquid quo officiis.</p>
         </div>
-        <div class="box">
+        <div id="box-2" class="box">
             <h2>box Shadows</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam iste temporibus, culpa eum, rem nulla, nisi sapiente laboriosam vero dolorum nihil a in non neque quia aliquid quo officiis.</p>
         </div>
-        <div class="box">
+        <div id="box-1" class="box">
             <h2>box Shadows</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem nam iste temporibus, culpa eum, rem nulla, nisi sapiente laboriosam vero dolorum nihil a in non neque quia aliquid quo officiis.</p>
         </div>
