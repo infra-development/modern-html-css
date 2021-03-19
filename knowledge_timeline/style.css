@@ -61,13 +61,13 @@
   /* Right Side */
   #timeline ul li:nth-child(odd) div {
     left: 40px;
-    transform: translate(200px, 0);
+    /* transform: translate(200px, 0); */
   }
   
   /* Left Side */
   #timeline ul li:nth-child(even) div {
     left: -434px;
-    transform: translate(-200px, 0);
+    /* transform: translate(-200px, 0); */
   }
   
   /* Dots */
