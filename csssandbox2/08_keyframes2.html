@@ -11,15 +11,21 @@
         }
         .box{
             background: #fff;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
             width: 200px;
             height: 200px;
             position: relative;
             top: 0;
             left: 0;
-            animation: animate1 5s forwards ease-in-out;
+            animation: animate1 10s forwards 5s ease-in-out;
         }
+
         @keyframes animate1 {
-            25%{
+            25%{    
                 top: 0;
                 left: 300px;
                 background: red;
@@ -48,6 +54,8 @@
     </style>
 </head>
 <body>
-    <div class="box"></div>
+    <div class="box">
+        <h1>kaushik chaudhary</h1>
+    </div>
 </body>
 </html>
