@@ -21,13 +21,17 @@
             position: relative;
             top: 0;
             left: 0;
-            animation: animate1 10s forwards 5s ease-in-out;
+            animation: animate1 10s forwards 1s ease-in-out;
+            color: #fff;
+            box-shadow: 10px 10px 20px 3px steelblue;
         }
-
+        .box > h1 {
+            text-shadow: .25rem .25rem 5px coral;
+        }
         @keyframes animate1 {
             25%{    
                 top: 0;
-                left: 300px;
+                left: 600px;
                 background: red;
                 border-radius: 50% 0 0 0;
             }
@@ -46,10 +50,22 @@
             100%{
                 top: 0;
                 left: 0;
-                background: white
-                                ;
-                                border-radius: 50% ;
+                background: white;
+                /* background: url(/pexels-maxime-francis-2246476.jpg)no-repeat center center/cover; */
+                border-radius: 50% ;
+            } 
+            /* 10%{
+                top: 0;
+                left: 20px;
             }
+            20%{
+                top: 10px;
+                left: 50px;
+            }
+            30%{
+                top: 50px;
+                left: 100px;
+            } */
         }
     </style>
 </head>
