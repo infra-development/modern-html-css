@@ -33,9 +33,38 @@ header{
         color: #fff;
     }
 }
-a {
-    color: #333;
-    &:hover{
-        color:coral;
+
+%btn-shared {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+%btn-hover{
+    opacity: 0.8;
+}
+
+.btn {
+    &-dark{
+        @extend %btn-shared;
+        background-color: $dark-color;
+        color: #fff;
+    }
+    &-light{
+        @extend %btn-shared;
+        background-color: $light-color;
+        color: #333;
+    }
+    &-dark:hover{
+        @extend %btn-shared;
+    //    opacity: 0.5;
+    @extend %btn-hover;
+    }
+    &-light:hover{
+        @extend %btn-shared;
+    @extend %btn-hover;
+    //    opacity: 0.5;
     }
 }
