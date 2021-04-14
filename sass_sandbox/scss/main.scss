@@ -52,7 +52,7 @@ header{
         color: set-text-color($light-color);
         &:hover{
             @include transform(rotate(20deg)); 
-            background-color:lighten($light-color, 10%); 
+            background-color:lighten($light-color, 10%);    8i 
         }
     }
     &-dark{
